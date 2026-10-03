@@ -1,0 +1,121 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+/* About section */
+#about p {
+    font-size: 18px;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills-list span {
+    background-color: #e3eaf2;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Project cards */
+.project-card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.project-card h3 {
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Makes the site work better on phones */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+}
